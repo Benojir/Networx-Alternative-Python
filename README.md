@@ -78,5 +78,3 @@ Displays real-time upload/download speeds — simple, minimal, and effective.
 ## ⚠️ Note
 
 Some antivirus software may flag the executable as a false positive. This happens because it was built using **PyInstaller**, a common tool that can trigger such warnings.
-
----
