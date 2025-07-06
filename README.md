@@ -32,7 +32,7 @@ Displays real-time upload/download speeds — simple, minimal, and effective.
 3. **Run the application:**
 
    ```bash
-   python SpeedMeterApp.py
+   python speedmeter.py
    ```
 
 ---
@@ -48,13 +48,13 @@ Displays real-time upload/download speeds — simple, minimal, and effective.
 2. **Build the executable:**
 
    ```bash
-   pyinstaller --onefile --windowed --noconsole --clean --upx-exclude=vcruntime140.dll --add-data "speedmeter.ico;." SpeedMeterApp.py
+   pyinstaller --onefile --windowed --noconsole --clean --upx-exclude=vcruntime140.dll --add-data "speedmeter.ico;." speedmeter.py
    ```
 
-3. **Install the app:**
+3. **Create Setup File:**
 
-   * Navigate to the `dist/` folder
-   * Run `install.bat` to install the app
+   * Download & Install `Inno Setup Compiler`
+   * Open `Inno Setup Compiler` and choose `speedmeter.iss`
 
 ---
 
@@ -62,16 +62,6 @@ Displays real-time upload/download speeds — simple, minimal, and effective.
 
 1. **Download** the installer from the [Releases](https://github.com/Benojir/Networx-Alternative-Python/releases) page.
 2. **Double-click** the setup file to install.
-
----
-
-## 🧹 Uninstall
-
-* Run `uninstall.bat` (if you used the installer), **or**
-* Manually delete:
-
-  * `%LOCALAPPDATA%\SpeedMeter`
-  * Any created shortcuts
 
 ---
 
