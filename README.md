@@ -5,12 +5,6 @@ Lightweight Windows taskbar network monitor (upload/download speeds)
 ## Requirements
 - Python 3.7+
 - Windows 10/11
-- `requirements.txt`:
-  ```
-  psutil==5.9.5
-  pywin32==306
-  pyinstaller==6.2.0  # (optional for building)
-  ```
 
 ## Installation
 
@@ -38,7 +32,8 @@ Lightweight Windows taskbar network monitor (upload/download speeds)
    ```bash
    pyinstaller --onefile --windowed --noconsole --clean --upx-exclude=vcruntime140.dll --add-data "speedmeter.ico;." SpeedMeterApp.py
    ```
-3. Find executable in `dist/` folder
+3. Find executable and `install.bat` in `dist/` folder
+4. Double click on `install.bat`
 
 ### Option 3: Download Speed Meter Setup file
 1. Download the installer setup file from release page.
